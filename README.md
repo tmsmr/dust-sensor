@@ -42,3 +42,19 @@ denyinterfaces wlan0
 ```
 ### Timezone
 - Set the correct timezone with: `sudo dpkg-reconfigure tzdata`
+
+### Supervisord
+- Install: `sudo apt-get install supervisor`
+- create config `/etc/supervisor/conf.d/dustsensor.conf`:
+
+```
+[program:dustsensor]
+command=/home/pi/dustsensor/serve.py
+autostart=true
+autorestart=true
+stderr_logfile=/home/pi/dustsensor/serve.stderr
+stdout_logfile=/home/pi/dustsensor/serve.stdout
+```
+
+- `sudo supervisorctl reread`
+- `sudo supervisorctl update`
