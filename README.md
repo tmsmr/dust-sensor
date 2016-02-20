@@ -40,3 +40,5 @@ nameserver 8.8.8.8
 ```
 denyinterfaces wlan0
 ```
+### Timezone
+- Set the correct timezone with: `sudo dpkg-reconfigure tzdata`
