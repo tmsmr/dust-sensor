@@ -62,4 +62,3 @@ stdout_logfile=/home/pi/dustsensor/serve.stdout
 
 ## PPD42
 - Compile `dustsensor.c` (described in the file itself)
-- Move binary to `/usr/local/bin/dustsensor`
