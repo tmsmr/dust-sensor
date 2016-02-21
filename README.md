@@ -55,6 +55,6 @@ autorestart=true
 stderr_logfile=/home/pi/dustsensor/serve.stderr
 stdout_logfile=/home/pi/dustsensor/serve.stdout
 ```
-
+- `sudo systemctl enable supervisor`
 - `sudo supervisorctl reread`
 - `sudo supervisorctl update`
