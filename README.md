@@ -1,3 +1,6 @@
+ATTENTION: This README is poorly written. This Project is a Prototype and just contains some notes for myself...
+If you want to use something from this Repository, but you dont understand how: Contact me and i'll write a more useful README then. 
+
 # dust-sensor
 PPD42 -> Raspberry Pi -> HTTP (WiFi/Flask)
 
