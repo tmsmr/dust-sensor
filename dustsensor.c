@@ -3,7 +3,7 @@
 - tested on a raspberry pi 2
 */
 
-// needs http://abyz.co.uk/rpi/pigpio/index.html
+// needs http://abyz.me.uk/rpi/pigpio/index.html
 // compile with: gcc -Wall -pthread -o dustsensor dustsensor.c -lpigpio -lrt -lm
 // run with: sudo ./dustsensor
 
